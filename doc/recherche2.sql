@@ -1,0 +1,5 @@
+select mots from mots where longueur = 7 and mots like "c%" and mots like "%e" 
+and mots not like "%u%" and mots not like "%h%"
+and mots like "%a%" 
+and mots like "%i%" 
+and mots like "%o%"

@@ -1,0 +1,1 @@
+select mots from dictionnaire where longueur = 8 and  mots like "c%" and voyelle in ( select max(voyelle) from dictionnaire where longueur = 8 and  mots like "c%" ) ;
